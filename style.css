@@ -786,7 +786,7 @@ p.dataBusca {
         font-size: 34px;
         padding: 0px 15px 0px 3px;
         float: left;
-        margin: 4% 0% 1% 1%;
+        margin: 3% 0% 2% 1%;
         color: #fff;
     }
     .repo img {
@@ -848,15 +848,27 @@ p.dataBusca {
     .avaliacao span {
         font-weight: bold;
         font-size: 20px;
+    }
+    .making iframe {
+        width: 100%;
+        border: 0px;
+        height: 15em;
+        margin: 7% 0% 0% 0%;
+    }
+    .chart canvas {
         display: block;
-        padding: 4% 4% 0% 0%;
-        margin: 5% auto 0% auto!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 80px;
     }
     .avaliacao img {
         width: 25%;
-        object-fit: scale-down;
+        object-fit: cover;
         border-radius: 99px;
-        margin: 0% 5% 0% 0%;
+        margin: 8% 0% -11% 0%;
+        height: 25%;
     }
     .novidadebloco {
         margin: 0% 0% 0% 0%;
@@ -873,14 +885,19 @@ p.dataBusca {
         text-align: center;
     }
     .novidades h3 {
-        margin: 2% 0% 2% 0%;
+        margin: 7% 0% 4% 0%;
         font-weight: bold;
+        font-size: 18px;
     }
     .lancamento iframe {
         height: 15em;
     }
     .swiper-button-prev {
         display: none!important;
+    }
+    .h2,
+    h2 {
+        font-size: 25px;
     }
     .swiper-button-next {
         display: none!important;
@@ -900,13 +917,24 @@ p.dataBusca {
     div.chart {
         position: absolute;
         margin: 0px;
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         z-index: 99;
         top: -2%;
         left: -1.5%;
         background: var(--primaria);
         border-radius: 100%;
+    }
+    .chart span {
+        color: #4FE2DE;
+        display: block;
+        line-height: 80px;
+        text-align: center;
+        width: auto;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 0px;
     }
     button.escolhaFilmeBox {
         color: var(--terciaria);
@@ -970,14 +998,15 @@ p.dataBusca {
         border: none;
         color: var(--terciaria);
         border-radius: 99px;
-        padding: 2.5% 4% 2% 4%;
+        padding: 4.5% 6% 4% 6%;
         font-weight: bold;
-        margin: 0% 1% 2% 0%;
+        margin: 2% 1% 2% 0%;
         text-decoration: none;
         float: right;
         background: #000;
         text-transform: uppercase;
         font-size: 13px;
+        width: auto;
     }
     .resultados img {
         width: 100%;
@@ -1014,5 +1043,8 @@ p.dataBusca {
         text-transform: uppercase;
         font-size: 13px;
         width: 100%;
+    }
+    .col-sm-12.col-lg-7.\37 {
+        padding: 0px;
     }
 }
