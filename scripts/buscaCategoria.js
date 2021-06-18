@@ -69,8 +69,8 @@ function montaCard() {
             ctx.lineWidth = lineWidth
             ctx.stroke();
         };
-        drawCircle('#4FE2DE', options.lineWidth, 100 / 100);
-        drawCircle('#fff', options.lineWidth, options.percent / 100);
+        drawCircle('#242d42', options.lineWidth, 100 / 100);
+        drawCircle('#4FE2DE', options.lineWidth, options.percent / 100);
     }
 
 
