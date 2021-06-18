@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-locale="pt-br">
+
+<head>
+    <title>Portal de Filmes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <script src="scripts/data.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+    <style>
+
+    </style>
+
+
+    <!--Menu-->
+
+    <header>
+        <div class="col-sm-12 col-lg-12 12 menu center desktop">
+            <div class="container flexMenu">
+                <div class="col-sm-2 col-lg-2 12">
+                    <a href="index.html">
+                        <img src="logo.gif" alt="logo">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-6 12">
+                    <ul>
+                        <li><a href="#Destaque">Destaques</a></li>
+                        <li><a href="populares.html">Populares</a></li>
+                        <li><a href="em_breve.html">Em Breve</a></li>
+                        <li><a href="nos_cinemas.html">No cinema</a></li>
+                        <li><a href="#Noticias">Noticias</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-lg-2 12">
+                    <button><a href="buscar.html">Pesquisar</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sidenav responsivo" id="mySidenav" style="z-index: 999999999999999999999999;">
+            <div class="container">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <br><br>
+                <ul>
+                    <li><a href="#Destaque">Destaques</a></li>
+                    <li><a href="populares.html">Populares</a></li>
+                    <li><a href="em_breve.html">Em Breve</a></li>
+                    <li><a href="nos_cinemas.html">No cinema</a></li>
+                    <li><a href="#Noticias">Noticias</a></li>
+                </ul>
+
+                <div class="col-sm-12 col-lg-12 12">
+                    <input placeholder="Pesquisar..">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 responsivo menos" style="padding: 0px">
+            <span class=" repo iconeRespo imgCima responsivo center imgRespo reponsivoStyle " onclick="openNav()">
+          
+                <i class="fas fa-bars iconeRespo left"></i>
+                <div class="center">
+                    <img src="logo.gif" alt="logo">
+                </div>
+          
+              </span>
+        </div>
+
+
+    </header>
+
+
+    <!--Lançamentos-->
+
+    <div class="col-sm-12 col-lg-12 12 lancamento" style="padding: 0px;">
+        <div class="container ">
+
+            <h2>Lançamentos</h2>
+        </div>
+        <div class="col-sm-12 " style="padding: 0px;">
+            <div class="container">
+                <div class="swiper-container bannerIncial">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 col-lg-12 flex">
+                                <div class="col-sm-7 col-lg-7 12">
+                                    <iframe src="https://www.youtube.com/embed/odM92ap8_c0"></iframe>
+                                </div>
+                                <div class="col-sm-5 col-lg-5 12 left">
+                                    <h3>GODZILLA VS KONG </h3>
+                                    <p><label>Sinopse:</label> No primeiro crossover do MonstroVerso, Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar. Entretanto, tudo sai do controle quando um Godzilla enfurecido,
+                                        começa a deixar um rastro de destruição pelo planeta. </p>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Diretor:</label> Adam Wingard </p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Roteiro:</label> Eric Pearson, Max Borenstein</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Estreia:</label> 2021</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+                                        <p><label>Elenco:</label> Kyle Chandler, Millie Bobby Brown, Alexander Skarsgård</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 col-lg-12 flex">
+                                <div class="col-sm-7 col-lg-7 12">
+                                    <iframe src="https://www.youtube.com/embed/NLOp_6uPccQ"></iframe>
+                                </div>
+                                <div class="col-sm-5 col-lg-5 12 left">
+                                    <h3>The Batman </h3>
+                                    <p><label>Sinopse:</label> Bruce Wayne é um jovem bilionário da cidade de Gotham City, Nova Jersey, que também age secretamente como o vigilante noturno Batman após o assassinato dos seus pais.</p>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Diretor:</label> Matt Reeves </p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Roteiro:</label> Peter Craig, Bill Finger</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Estreia:</label> 2021</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+                                        <p><label>Elenco:</label> Robert Pattinson, Charlie Carver, Colin Farrell Previous</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 col-lg-12 flex">
+                                <div class="col-sm-7 col-lg-7 12">
+                                    <iframe src="https://www.youtube.com/embed/ZX60xMo3QB0"></iframe>
+                                </div>
+                                <div class="col-sm-5 col-lg-5 12 left">
+                                    <h3>UM LUGAR SILENCIOSO - PARTE II </h3>
+                                    <p><label>Sinopse:</label> Bruce Wayne é um jovem bilionário da cidade de Gotham City, Nova Jersey, que também age secretamente como o vigilante noturno Batman após o assassinato dos seus pais.</p>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Diretor:</label> John Krasinski </p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Roteiro:</label> John Krasinski, Bryan Woods</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Estreia:</label> 2021</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+                                        <p><label>Elenco:</label> Emily Blunt, Cillian Murphy, Millicent Simmonds</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 col-lg-12 flex">
+                                <div class="col-sm-7 col-lg-7 12">
+                                    <iframe src="https://www.youtube.com/embed/SR_vhri_W0E"></iframe>
+                                </div>
+                                <div class="col-sm-5 col-lg-5 12 left">
+                                    <h3>SPACE JAM: UM NOVO LEGADO</h3>
+                                    <p><label>Sinopse:</label> Bruce Wayne é um jovem bilionário da cidade de Gotham City, Nova Jersey, que também age secretamente como o vigilante noturno Batman após o assassinato dos seus pais.</p>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Diretor:</label> Malcolm D. Lee </p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Roteiro:</label> Keenan Coogler, Terence Nance</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                                        <p><label>Estreia:</label> 2021</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+                                        <p><label>Elenco:</label> LeBron James, Don Cheadle, Sonequa Martin-Green</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Destaques-->
+
+    <div id="Destaque" class="col-sm-12 col-lg-12 12 asd ">
+        <div class="container flex">
+            <div class="col-sm-4 col-lg-4 12 destaque">
+                <h2>Em Destaque</h2>
+            </div>
+            <div class="col-sm-8 col-lg-8 12 right">
+                <button class="escolhaFilmeBox acao" id="acao">Ação</button>
+                <button class="escolhaFilmeBox" id="comedia">Comédia</button>
+                <button class="escolhaFilmeBox" id="terror">Terror</button>
+                <button class="escolhaFilmeBox" id="fic">Ficção</button>
+                <button class="escolhaFilmeBox" id="drama">Drama</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-lg-12 12 ">
+        <div class="container" style="padding: 0px;">
+            <div id="cats" class="col-sm-12 col-lg-12 12 filmes destaque" style="padding: 0px;">
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Entrevista-->
+
+    <div class="col-sm-12 col-lg-12 12 making">
+        <div class="container">
+
+            <div class="col-sm-8 col-lg-8 12" style="padding: 0px;">
+                <h2>Entrevistas & Making of</h2>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 12"></div>
+
+            <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+
+                <div class="col-sm-4 col-lg-4 12">
+
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <h3><label>Filme:</label>Nome do filme</h3>
+                    <p><label>Diretor:</label>Nome do diretor</p>
+                    <p><label>Roteiro:</label>Nome do roteirista</p>
+                    <p><label>Estreia:</label>2020</p>
+
+                </div>
+
+                <div class="col-sm-4 col-lg-4 12">
+
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <h3><label>Filme:</label>Nome do filme</h3>
+                    <p><label>Diretor:</label>Nome do diretor</p>
+                    <p><label>Roteiro:</label>Nome do roteirista</p>
+                    <p><label>Estreia:</label>2020</p>
+
+                </div>
+
+                <div class="col-sm-4 col-lg-4 12">
+
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <h3><label>Filme:</label>Nome do filme</h3>
+                    <p><label>Diretor:</label>Nome do diretor</p>
+                    <p><label>Roteiro:</label>Nome do roteirista</p>
+                    <p><label>Estreia:</label>2020</p>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <!--Avaliacao-->
+
+    <div class="col-sm-12 col-lg-12 12 avaliacao">
+        <div class="container">
+
+            <div class="col-sm-12 col-lg-12 12" style="padding: 0px;">
+                <h2>Últimas avaliações</h2>
+            </div>
+            <div class="col-sm-12 col-lg-12 12 depoimentos">
+                <div class="swiper-container depoimento">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 center" style="z-index: 999;">
+                                <img src="https://br.web.img3.acsta.net/c_80_80/commons/v9/common/empty/empty_avatar.png" alt="">
+                            </div>
+                            <div class="col-sm-12 boxCinza">
+                                <h2>
+                                    Francisco Russo
+                                </h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <p> Pixar conseguiu, mais uma vez. Ao longo dos anos, o estúdio fez fama graças à capacidade de criar universos bastante criativos a partir de situações inusitadas. Assim foi com Toy Story (o mundo dos brinquedos), Procurando
+                                    Nemo (a vida no aquário), Monstros S.A. (Boo como ameaça aos monstros) e outros tantos. Após um período de vacas magras, em que até fez sucesso mas sem a mesma originalidade, o estúdio retorna à sua melhor forma em
+                                    Divertida Mente.</p>
+                                <br>
+                                <p><b>Filme</b>: Divertida mente</p>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 center" style="z-index: 999;">
+                                <img src="https://br.web.img3.acsta.net/c_80_80/commons/v9/common/empty/empty_avatar.png" alt="">
+                            </div>
+                            <div class="col-sm-12 boxCinza">
+                                <h2>
+                                    Bruno Botelho
+                                </h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                                <p>Em 2004, James Wan e Leigh Whannell lançaram Jogos Mortais, um filme de terror de baixo orçamento que acabou se tornando um sucesso de bilheteria. Assim surgia uma das franquias mais populares de terror no século 21, seguindo
+                                    o estilo torture porn (traduzido para "pornô de tortura") – termo usado para definir um subgênero onde temos a combinação de violência gráfica e imagens sexualmente sugestivas.</p>
+                                <br>
+                                <p><b>Filme</b>:ESPIRAL</p>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide center">
+                            <div class="col-sm-12 center" style="z-index: 999;">
+                                <img src="https://br.web.img3.acsta.net/c_80_80/commons/v9/common/empty/empty_avatar.png" alt="">
+                            </div>
+                            <div class="col-sm-12 boxCinza">
+                                <h2>
+                                    Kalel Adolfo
+                                </h2>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <p>Após quase duas décadas de Madrugada dos Mortos, Zack Snyder se aventura novamente no território de zumbis com Army of the Dead, projeto que, de certa forma, representa um retorno às raízes do cineasta. Muitas coisas aconteceram
+                                    nesse intervalo entre as obras, incluindo uma triste tragédia em sua vida pessoal e diversas polêmicas envolvendo a Warner Bros.</p>
+                                <br>
+                                <p><b>Filme</b>:ARMY OF THE DEAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Novidades/Sobre-->
+
+    <div id="Noticias" class="col-sm-12 col-lg-12 12 novisobre">
+        <div class="container">
+
+
+            <div class="col-sm-12 col-lg-8 8 novidades">
+
+                <h2>Novidades</h2>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/r_640_360/videothumbnails/21/04/06/21/42/3014696.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Loki: O que são as cargas de reinicialização e como elas podem criar o Multiverso da Marvel?</h3>
+                        <p>Loki apresentou a Autoridade de Variância de Tempo (AVT) que usa as cargas de reinicialização depois de suas viagens no tempo.</p>
+                        <a href="https://www.adorocinema.com/noticias/series/noticia-159289/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/r_640_360/videothumbnails/21/05/24/18/11/2863831.png" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Um Lugar Silencioso 2 tem referência a The Office</h3>
+                        <p>Um Lugar Silencioso 2 pode até ser um dos grandes lançamentos de terror em 2021, mas isso não significa que John Krasinski tenha deixado para trás as raízes na comédia..</p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159288/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/c_400_225/newsv7/21/06/18/02/34/3460209.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Velozes & Furiosos 9: Conheça a perigosa cena de ação em campo minado</h3>
+                        <p>Velozes & Furiosos 9 elevou os riscos da franquia de Dom Toretto (Vin Diesel). O filme, que é um dos mais aguardados de 2021, vai ter cenas de ação surpreendentes, sequências insanas e vai finalmente levar os personagens para o
+                            espaço.
+                        </p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159298/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 4 sobre">
+
+                <h2>Sobre</h2>
+                <p>Este é um portal de filme elaborado por Caio Henrique Miranda dos reis para Disciplina de Desenvolvimento de Interfaces WEB. Todos os links e páginas estão funcionais e todas páginas contam com informações obtidas da The Movie Db API</p>
+
+                <h2>Editorial</h2>
+                <p><label>Redação:</label> Caio Henrique Miranda dos reis</p>
+                <p><label>Pesquisa:</label> Caio Henrique Miranda dos reis</p>
+                <p><label>Gerente geral:</label> Caio Henrique Miranda dos reis</p>
+
+                <h2>Rede Social</h2>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="col-sm-12 col-lg-12 12 footer">
+            <div class="container">
+
+                <div class="col-sm-6 col-lg-6 12">
+                    <p>Copyright 2021 - Disciplina de Desenvolvimento de Interface Web - ICEI PUC MINAS</p>
+                </div>
+
+                <div class="col-sm-6 col-lg-6 12 right">
+                    <img src="logo.gif" alt="logo">
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
+
+<!--Barra Lateral responsivo -->
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+
+<script src="scripts/buscaCategoria.js"></script>
+<script src="scripts/slides.js"></script>

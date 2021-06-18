@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Portal de Filmes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts/data.js"></script>
+</head>
+
+<body>
+
+    <style>
+
+    </style>
+
+
+    <!--Menu-->
+
+    <header>
+        <div class="col-sm-12 col-lg-12 12 menu center desktop">
+            <div class="container flexMenu">
+                <div class="col-sm-2 col-lg-2 12">
+                    <a href="index.html">
+                        <img src="logo.gif" alt="logo">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-6 12">
+                    <ul>
+                        <li><a href="#Destaque">Destaques</a></li>
+                        <li><a href="populares.html">Populares</a></li>
+                        <li><a href="em_breve.html">Em Breve</a></li>
+                        <li><a href="nos_cinemas.html">No cinema</a></li>
+                        <li><a href="#Noticias">Noticias</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-lg-2 12">
+                    <button><a href="buscar.html">Pesquisar</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sidenav responsivo" id="mySidenav" style="z-index: 999999999999999999999999;">
+            <div class="container">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <br><br>
+                <ul>
+                    <li><a href="#Destaque">Destaques</a></li>
+                    <li><a href="populares.html">Populares</a></li>
+                    <li><a href="em_breve.html">Em Breve</a></li>
+                    <li><a href="nos_cinemas.html">No cinema</a></li>
+                    <li><a href="#Noticias">Noticias</a></li>
+                </ul>
+
+                <div class="col-sm-2 col-lg-2 12">
+                    <button><a href="buscar.html">Pesquisar</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 responsivo menos" style="padding: 0px">
+            <span class=" repo iconeRespo imgCima responsivo center imgRespo reponsivoStyle " onclick="openNav()">
+          
+                <i class="fas fa-bars iconeRespo left"></i>
+                <div class="center">
+                    <img src="logo.gif" alt="logo">
+                </div>
+          
+              </span>
+        </div>
+
+
+    </header>
+
+
+
+
+
+    <!--Destaques-->
+    <div class="col-sm-12 col-lg-12 12  ">
+        <div class="container flex">
+
+            <div class="col-sm-4 col-lg-4 12 asd ">
+                <h2>Buscar:</h2>
+            </div>
+            <div class="col-sm-8 col-lg-8 12 ">
+                <input id="txtBusca" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                <button id="btnBusca" type="button">Pesquisar</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-12 col-lg-12 12  ">
+        <div class="container">
+            <div class="container" id="main">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Novidades/Sobre-->
+
+    <div id="Noticias" class="col-sm-12 col-lg-12 12 novisobre">
+        <div class="container">
+
+
+            <div class="col-sm-12 col-lg-8 8 novidades">
+
+                <h2>Novidades</h2>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/r_640_360/videothumbnails/21/04/06/21/42/3014696.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Loki: O que são as cargas de reinicialização e como elas podem criar o Multiverso da Marvel?</h3>
+                        <p>Loki apresentou a Autoridade de Variância de Tempo (AVT) que usa as cargas de reinicialização depois de suas viagens no tempo.</p>
+                        <a href="https://www.adorocinema.com/noticias/series/noticia-159289/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/r_640_360/videothumbnails/21/05/24/18/11/2863831.png" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Um Lugar Silencioso 2 tem referência a The Office</h3>
+                        <p>Um Lugar Silencioso 2 pode até ser um dos grandes lançamentos de terror em 2021, mas isso não significa que John Krasinski tenha deixado para trás as raízes na comédia..</p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159288/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/c_400_225/newsv7/21/06/18/02/34/3460209.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Velozes & Furiosos 9: Conheça a perigosa cena de ação em campo minado</h3>
+                        <p>Velozes & Furiosos 9 elevou os riscos da franquia de Dom Toretto (Vin Diesel). O filme, que é um dos mais aguardados de 2021, vai ter cenas de ação surpreendentes, sequências insanas e vai finalmente levar os personagens para o
+                            espaço.
+                        </p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159298/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 4 sobre">
+
+                <h2>Sobre</h2>
+                <p>Este é um portal de filme elaborado por Caio Henrique Miranda dos reis para Disciplina de Desenvolvimento de Interfaces WEB. Todos os links e páginas estão funcionais e todas páginas contam com informações obtidas da The Movie Db API</p>
+
+                <h2>Editorial</h2>
+                <p><label>Redação:</label> Caio Henrique Miranda dos reis</p>
+                <p><label>Pesquisa:</label> Caio Henrique Miranda dos reis</p>
+                <p><label>Gerente geral:</label> Caio Henrique Miranda dos reis</p>
+
+                <h2>Rede Social</h2>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="col-sm-12 col-lg-12 12 footer">
+            <div class="container">
+
+                <div class="col-sm-6 col-lg-6 12">
+                    <p>Copyright 2021 - Disciplina de Desenvolvimento de Interface Web - ICEI PUC MINAS</p>
+                </div>
+
+                <div class="col-sm-6 col-lg-6 12 right">
+                    <img src="logo.gif" alt="logo">
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
+
+<!--Barra Lateral responsivo -->
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<script src="scripts/buscador.js"></script>
