@@ -747,7 +747,6 @@ p.dataBusca {
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
-        font-family: bn;
     }
     .sidenav a,
     .dropdown-btn {
@@ -759,7 +758,6 @@ p.dataBusca {
         background: transparent;
         font-weight: 500;
         text-transform: uppercase;
-        font-family: roboto;
         border-bottom: 0px solid #000;
         font-size: 15px;
     }
@@ -789,18 +787,20 @@ p.dataBusca {
         padding: 0px 15px 0px 3px;
         float: left;
         margin: 4% 0% 1% 1%;
-        color: var(--primaria);
+        color: #fff;
     }
     .repo img {
-        width: 21%;
-        margin: 2% 15% 2% 0%;
+        width: 35%;
+        margin: 3% 15% 0% 0%;
         z-index: 999;
         vertical-align: middle;
+        object-fit: cover;
+        height: 36px;
     }
     .reponsivoStyle {
         z-index: 999999999;
         color: #9a9f9a!important;
-        background: #fff;
+        background: var(--primaria);
         position: fixed;
         width: 100%;
         padding: 0.7%;
