@@ -28,7 +28,7 @@ function montaResultado() {
                         </h2>
                         <p> ${tipo =! undefined ? tipo : 'Sem informação'}</p>
                         <p>
-                            ${filme.overview != undefined ? filme.overview.substr(0,222) : 'Sem informação'}${ filme.overview != undefined ? filme.overview.length > 222 ? '...' : '' : 'Sem Info'}
+                            ${filme.overview != undefined ? filme.overview.substr(0,222) : 'Sem informação'}${ filme.overview != undefined ? filme.overview.length > 222 ? '...' : '' : ''}
                         </p>
                        
                         <p class="avaliacaoBusca">
